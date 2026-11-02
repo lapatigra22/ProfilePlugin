@@ -1,0 +1,6 @@
+# Максимальные длины текста
+max-description-length: 120
+max-achievements-length: 200
+max-review-length: 100
+# Сколько последних отзывов показывать в меню профиля (1-7)
+reviews-in-gui: 7

@@ -1,0 +1,15 @@
+name: ProfilePlugin
+version: ${project.version}
+main: ru.amethyst.profile.ProfilePlugin
+api-version: '1.21'
+description: Профили игроков: статистика, описание, лайки и отзывы
+commands:
+  profile:
+    description: Профиль игрока
+    usage: /profile [ник]
+    aliases: [prof, pf]
+    permission: profile.use
+permissions:
+  profile.use:
+    description: Доступ к команде /profile
+    default: true
